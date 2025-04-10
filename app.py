@@ -1,12 +1,22 @@
+import sys
+import os
 import curses
 from curses import wrapper
 import time
 import random
 
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
+
 def start_screen(stdscr):
 
     stdscr.clear()
-    with open("welcome.txt", "r", encoding="utf-8") as file:
+    with open(resource_path("welcome.txt"), "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     for idx, line in enumerate(lines):
@@ -36,7 +46,7 @@ def display_text(stdscr, target, current, wpm=0):
             stdscr.addstr(0, i, char, color)
 
 def load_text():
-    with open("phrases.txt", "r") as f:
+    with open(resource_path("phrases.txt"), "r") as f:
         lines = f.readlines()
         return random.choice(lines).strip()
 
