@@ -1,5 +1,11 @@
-# TERMOMETER ⌨️💨  
+# TERMOMETER ⌨️  
 A fast-paced terminal-based typing speed test built with Python and `curses`.
+
+## Releases:
+- v1.0
+
+## 🔽 Download
+➡️ [Download Termometer .exe](https://github.com/sidxdhiman/termometer/releases/latest)
 
 ## 🚀 Features
 - Retro-style terminal UI
@@ -36,7 +42,7 @@ A fast-paced terminal-based typing speed test built with Python and `curses`.
 
 5. If you want to make .exe file :
 
-       pyinstaller --onefile --add-data "welcome.txt;." --add-data "phrases.txt;." app.py
+       pyinstaller --onefile --add-data "welcome.txt;." --add-data "phrases.txt;." app.py       
 
 
 ## Made By Sidharth Dhiman
