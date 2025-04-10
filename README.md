@@ -29,7 +29,7 @@ A fast-paced terminal-based typing speed test built with Python and `curses`.
 
 1. Clone this repo:
 
-        git clone git@github.com:yourusername/termometer.git
+        git clone git@github.com:sidxdhiman/termometer.git
         cd termometer
 
 2. Install dependencies (Windows only):
