@@ -14,6 +14,12 @@ A fast-paced terminal-based typing speed test built with Python and `curses`.
 - Random phrase selection from `phrases.txt`
 - Start screen with stylized ASCII art from `welcome.txt`
 
+## Screenshots
+
+![welcome-page](image.png)
+![phrase-page-right-wrong](image-1.png)
+![after-completion](image-2.png)
+
 ## 📦 Requirements
 - Python 3.8+
 - Compatible with Windows, macOS, and Linux
