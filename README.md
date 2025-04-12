@@ -5,7 +5,7 @@ A fast-paced terminal-based typing speed test built with Python and `curses`.
 - v1.0
 
 ## 🔽 Download
-➡️ [Download Termometer .exe](https://github.com/sidxdhiman/termometer/releases/latest)
+➡️ [Download Termometer.exe](https://github.com/sidxdhiman/termometer/releases/latest)
 
 ## 🚀 Features
 - Retro-style terminal UI
@@ -22,7 +22,7 @@ A fast-paced terminal-based typing speed test built with Python and `curses`.
 
 ## 📦 Requirements
 - Python 3.8+
-- Compatible with Windows, macOS, and Linux
+- Compatible with Windows, macOS, and Linux(only the code not the release)
 - Uses the built-in `curses` module (use `windows-curses` if you're on Windows)
 
 ## 🛠️ To Run this application follow these steps:
